@@ -1,0 +1,13 @@
+14:43:57 **** Incremental Build of configuration Debug for project pattern 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 4.o" "..\\src\\pattern 4.c" 
+..\src\pattern 4.c: In function 'main':
+..\src\pattern 4.c:16:10: warning: unused variable 'k'
+..\src\pattern 4.c: At top level:
+..\src\pattern 4.c:26:2: error: expected identifier or '(' before 'return'
+..\src\pattern 4.c:27:1: error: expected identifier or '(' before '}' token
+..\src\pattern 4.c: In function 'main':
+..\src\pattern 4.c:25:2: warning: control reaches end of non-void function
+
+14:43:58 Build Failed. 2 errors, 2 warnings. (took 355ms)
+

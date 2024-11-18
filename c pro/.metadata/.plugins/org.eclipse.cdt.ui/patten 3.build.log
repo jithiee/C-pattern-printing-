@@ -1,0 +1,14 @@
+12:50:25 **** Incremental Build of configuration Debug for project patten 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\patten 3.o" "..\\src\\patten 3.c" 
+..\src\patten 3.c: In function 'main':
+..\src\patten 3.c:18:13: error: 'ij' undeclared (first use in this function)
+..\src\patten 3.c:18:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\patten 3.c: At top level:
+..\src\patten 3.c:24:2: error: expected identifier or '(' before 'return'
+..\src\patten 3.c:25:1: error: expected identifier or '(' before '}' token
+..\src\patten 3.c: In function 'main':
+..\src\patten 3.c:23:2: warning: control reaches end of non-void function
+
+12:50:25 Build Failed. 3 errors, 1 warnings. (took 190ms)
+
